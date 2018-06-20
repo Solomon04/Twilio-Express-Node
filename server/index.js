@@ -36,4 +36,5 @@ app.get('/send-text', (req, res) => {
     }).then((message) => console.log(message.body));
 })
 
+// to access server run 'nodemon index.js' then click here: http://localhost:4000/
 app.listen(4000, () => console.log("Running on Port 4000"))
