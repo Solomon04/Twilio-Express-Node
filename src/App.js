@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     const { text } = this.state;
     const spacer = {
-      margin: 10
+      margin: 8
     }
     const textArea = {
       borderRadius: 4
